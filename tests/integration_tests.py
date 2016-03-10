@@ -103,7 +103,6 @@ class PlanetAppIntegrationTest(LiveServerTestCase):
         self.assertEqual(json.loads(response.text), user_object)
 
     def test_fetch_not_found_user(self):
-        # then read the write and make sure it's equal to the post
         response = requests.get(self.get_server_url() + "/users/doesnt_exist")
         self.assertEqual(response.status_code, status.HTTP_404_NOT_FOUND)
 
