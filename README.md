@@ -18,7 +18,7 @@ https://github.com/brainsik/virtualenv-burrito
 > python utils/create_tables.py planet.db
 > python app/planet_app.py
 ```
-### create a user and then fetch that users
+### create a user and then fetch that user
 ```
 > curl -X POST -d '{"first_name": "christine", "last_name": "donovan", "userid": "cdonovan", "groups": ["photoclub", "bikeclub"]}' http://127.0.0.1:5000/users
 > curl http://127.0.0.1:5000/users/cdonovan
