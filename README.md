@@ -1,7 +1,7 @@
 Welcome to Planet App, a restful backend for managing users and groups
 See specification.md for availiable features
 
-run all of commands from the root of the project.
+run all commands from the root of the project.
 
 ### setup
 for best results, create a python virtualenv before installing the
